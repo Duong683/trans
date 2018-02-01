@@ -1,0 +1,35 @@
+﻿File độc hại:
+C:\Windows\Patch.exe	10/17/2017  02:52 PM           
+C:\Windows\KeyHook.dll	10/17/2017  02:52 PM            
+
+Analysis: Patch.exe
+
+- Phân loại: Backdoor.NetBus
+- Luồng hoạt động chính:
+	Drop file KeyHook.dll
+	Tạo registry để khởi động cùng windows
+		HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+		C:\Windows\Patch.exe /nomsg
+	Lắng nghe trên port. Accept kết nối đến
+	Nhận packet chứa password. check pass. 
+	Access nếu pass đúng. Nhận lệnh được gửi tới và thực hiện lệnh.
+	Các lệnh thực hiện được bao gồm:
+		chat với victim?
+		ghi log lại input từ bàn phím và chuột. keylogger
+		SwapMouseButton, DisableKeys
+		ShowImage, PlaySound
+		Capture screen, Record
+		GetVolumeInfo
+		UploadFile, DownloadFile
+		Thực hiện thêm sửa xóa, thực thi file
+		shutdown system
+- Máy chủ điều khiển: không tìm thấy
+- Dấu hiệu nhận biết:
+	patch.exe co timestamp 6/20/1992
+	tạo registry HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+		C:\Windows\Patch.exe /nomsg
+	file KeyHook.dll chứa binary chuỗi string "netbus"
+		
+	
+
+

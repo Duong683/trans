@@ -1,0 +1,9 @@
+﻿File nghi vấn:
+	wer.dll
+Kết quả virustotal: 20/64
+Phân loại: Gen:Trojan.Heur.GM
+
+		
+	
+
+

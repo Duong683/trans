@@ -1,0 +1,26 @@
+﻿File độc hại:
+C:\PROGRA~3\LOCALS~1\Temp\msauyrvib.exe		10/17/2017 - 4:43 PM
+C:\Users\huynl2\LOCALS~1\Temp\msfctec.bat
+
+2 file trên có mã hash giống nhau.
+
+Phân tích:
+
+- Phân loại:  Gen:Variant.Graftor.Elzob
+		#andromeda, #gamarue, #trojan
+- Luồng hoạt động chính:
+	Tạo registry khởi động cùng windows
+	tọa process scvhost.exe. tiêm mã độc vào process
+	keylogger. Ăn cắp mật khẩu máy tính rồi gửi cho máy chủ
+- Máy chủ điều khiển:
+	216.58.215.46:80
+- Giao thức điều khiển: TCP
+- Dấu hiệu nhận biết:
+	cả 2 file đêu không có chữ ký.
+	key registry run file trong thư mục temp
+		HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+		C:\PROGRA~3\LOCALS~1\Temp\msauyrvib.exe
+
+		HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows
+		C:\Users\huynl2\LOCALS~1\Temp\msfctec.bat
+	process svchost.exe nằm độc lập. Không thuộc tree của services

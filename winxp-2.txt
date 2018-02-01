@@ -1,0 +1,38 @@
+﻿File độc hại:
+c:\documents and settings\all users\local settings\temp\ccuwuivw.scr		10/17/2017 3:06 PM
+
+C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log
+C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.chk
+C:\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
+
+Phân tích: ccuwuivw.scr
+
+- Phân loại: Trojan.Gamarue
+	#andromeda, #gamarue, #sinkhole
+- Luồng hoạt động chính:
+	Tạo và ghi data lên vùng nhớ của process wuauclt.exe
+	Lúc này ccuwuivw.scr sẽ bị kill và chỉ còn lại process wuauclt.exe đã bị tiêm mã độc
+	wuauclt.exe thực hiện các việc:
+		Tạo registry để ccuwuivw.scr khởi động cùng windows
+			HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+			c:\documents and settings\all users\local settings\temp\ccuwuivw.scr
+		Gửi requests đến server:
+			POST file lên webserver: "POST /ldr.php HTTP/1.1Host: hzmksreiuojy.inUser-Agent: Mozilla/4.0Content-Type: application/x-www-form-urlencodedContent-Length: 84Connection: close"
+			GET file
+		Ghi nội dung ra các file
+			C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log
+			C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.chk
+			C:\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
+		
+	
+- Máy chủ điều khiển:
+	hzmksreiuojy.in		195.22.4.21:80
+	hzmksreiuojy.com	52.28.249.128:80
+	hzmksreiuojy.biz	52.28.249.128:80
+	hzmksreiuojy.nl
+	hzmksreiuojy.ru
+- Giao thức điều khiển: TCP
+- Dấu hiệu nhận biết:
+	ccuwuivw.scr không có chữ ký.
+	Autorun file trong thư mục temp
+	

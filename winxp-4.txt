@@ -2,14 +2,13 @@
 C:\Documents and Settings\Administrator\Application Data\Microsoft\Windows\VGX.ocx	10/17/2017
 
 Phân tích:
-- Phân loại: Malware.SP.Generic
+- Phân loại: Poison Ivy
 - Luồng hoạt động chính:
 	File được pack bằng UPX
 	Tạo rergistry rundll32 để vgx.ocx start cùng windows:
 		HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run		10/17/2017 4:47 PM	
 		rundll32.exe "C:\Documents and Settings\Administrator\Application Data\Microsoft\Windows\VGX.ocx",Setting
-	
-
+	...
 - Máy chủ điều khiển:
 - Giao thức điều khiển: 
 - Dấu hiệu nhận biết:

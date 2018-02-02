@@ -1,0 +1,13 @@
+File độc hại:
+C:\WindowsSECOH-QAD.exe     10/09/2017  04:26 AM             
+C:\WindowsSECOH-QAD.dll     10/09/2017  04:26 AM             
+
+Phân tích:
+- Phân loại:    RiskTool.Win64.ProcPatcher
+- Luồng hoạt động chính:
+	        Gửi requests đến máy chủ: GET, POST. Download file.
+- Máy chủ điều khiển: 52.164.240.59:80
+- Giao thức điều khiển: HTTP, TCP
+- Dấu hiệu nhận biết:
+        
+	

@@ -14,7 +14,7 @@ Phân tích: i_865556~1.vbs
 	gbstamps4u.com				185.119.173.239:80
 - Giao thức điều khiển: HTTP/ TCp không mã hóa
 - Dấu hiệu nhận biết:
-	script vbs được auto run. tên script đáng nghi
+	script vbs được auto run. tên script đáng nghi: i_865556~1.vbs
 	HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run		10/17/2017 3:43 PM	
 	backup	c:\users\asus\appdata\roaming\microsoft\i_865556~1.vbs	8/31/2017 1:45 AM
 	

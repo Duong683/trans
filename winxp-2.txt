@@ -1,10 +1,6 @@
 ﻿File độc hại:
 c:\documents and settings\all users\local settings\temp\ccuwuivw.scr		10/17/2017 3:06 PM
 
-C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log
-C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.chk
-C:\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
-
 Phân tích: ccuwuivw.scr
 
 - Phân loại: Trojan.Gamarue
@@ -17,9 +13,9 @@ Phân tích: ccuwuivw.scr
 			HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
 			c:\documents and settings\all users\local settings\temp\ccuwuivw.scr
 		Gửi requests đến server:
-			POST file lên webserver: "POST /ldr.php HTTP/1.1Host: hzmksreiuojy.inUser-Agent: Mozilla/4.0Content-Type: application/x-www-form-urlencodedContent-Length: 84Connection: close"
-			GET file
-		Ghi nội dung ra các file
+			POST data lên webserver: "POST /ldr.php HTTP/1.1Host: hzmksreiuojy.inUser-Agent: Mozilla/4.0Content-Type: application/x-www-form-urlencodedContent-Length: 84Connection: close"
+			GET data
+		Ghi nội dung ra các file log
 			C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.log
 			C:\WINDOWS\SoftwareDistribution\DataStore\Logs\edb.chk
 			C:\WINDOWS\SoftwareDistribution\DataStore\DataStore.edb
@@ -35,4 +31,5 @@ Phân tích: ccuwuivw.scr
 - Dấu hiệu nhận biết:
 	ccuwuivw.scr không có chữ ký.
 	Autorun file trong thư mục temp
+	c:\documents and settings\all users\local settings\temp\ccuwuivw.scr
 	

@@ -1,6 +1,6 @@
 ﻿File độc hại:
 C:\PROGRA~3\LOCALS~1\Temp\msauyrvib.exe		10/17/2017 - 4:43 PM
-C:\Users\huynl2\LOCALS~1\Temp\msfctec.bat
+C:\Users\huynl2\LOCALS~1\Temp\msfctec.bat	10/17/2017 - 4:43 PM
 
 2 file trên có mã hash giống nhau.
 
@@ -10,8 +10,8 @@ Phân tích:
 		#andromeda, #gamarue, #trojan
 - Luồng hoạt động chính:
 	Tạo registry khởi động cùng windows
-	tọa process scvhost.exe. tiêm mã độc vào process
-	keylogger. Ăn cắp mật khẩu máy tính rồi gửi cho máy chủ
+	tọa process svchost.exe. tiêm mã độc vào process
+	process svchost thuc hien keylogger rồi gửi cho máy chủ
 - Máy chủ điều khiển:
 	216.58.215.46:80
 - Giao thức điều khiển: TCP

@@ -11,7 +11,7 @@ Phân tích:
 - Luồng hoạt động chính:
 	Tạo registry khởi động cùng windows
 	tọa process svchost.exe. tiêm mã độc vào process
-	process svchost thuc hien keylogger rồi gửi cho máy chủ
+	process svchost thuc hien keylogger, an cap thong tin may tinh rồi gửi cho máy chủ
 - Máy chủ điều khiển:
 	216.58.215.46:80
 - Giao thức điều khiển: TCP

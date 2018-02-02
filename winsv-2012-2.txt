@@ -1,0 +1,16 @@
+File độc hại:
+ C:\WINDOWS\system32\faizal.js 		8/22/2013 3:01 AM	
+
+Phân tích: 
+- Phân loại:  Worm.JS.AutoRun
+- Luồng hoạt động chính:
+	    Tạo registry khởi động cùng windows
+      Sao chép file faizal.js ra các ổ đĩa khác có trên máy
+- Máy chủ điều khiển:  
+- Giao thức điều khiển: 
+- Dấu hiệu nhận biết:
+    registry chạy khi khởi động windows:
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+    c:\windows\system32\wscript.exe   faizal 	  8/22/2013 3:01 AM	
+    
+	

@@ -1,0 +1,29 @@
+﻿File độc hại:
+C:\Users\huynl\AppData\Roaming\Microsoft\CTFMON\CTFMON.exe	10/17/2017	02:57 PM
+C:\Windows\pfs32.exe						10/17/2017	02:57 PM
+C:\Users\huynl\AppData\Local\Temp\1.dll				10/17/2017	02:57 PM	
+
+Analysis: 
+- Phân loại:  Trojan.Win32.Agent.agmnd
+- Luồng hoạt động chính:
+	Tạo registry khởi động cùng windows
+	HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\CTFMON.exe
+	C:\Users\huynl\AppData\Roaming\Microsoft\CTFMON\ctfmon.exe
+	
+	HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+	pfs32.exe
+	C:\Windows\pfs32.exe
+	
+	pfs32.exe inject code vào process svchost.exe.
+	svchost.exe lúc này sẽ thực hiện gửi requests đến các địa chỉ có sẵn
+- Máy chủ điều khiển:
+	74.125.160.39:80
+	216.58.209.238:80
+	173.194.183.230:80
+- Giao thức điều khiển: TCP
+- Dấu hiệu nhận biết:
+	pfs32.exe không có chữ ký hợp lệ
+	process svchost.exe không riêng lẻ	
+	
+
+

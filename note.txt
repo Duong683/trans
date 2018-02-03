@@ -1,0 +1,19 @@
+﻿Không tạo được máy ảo. vmware báo lỗi
+- winserver-2008-x64-
+- winserver-2008-x64-10
+-----------------------------------------------------------------
+Không vào được máy ảo. Win yêu cầu active key để sử dụng
+- winserver-2003-
+- winserver-2003-
+- winserver-2003-12
+- winserver-2003-14
+-----------------------------------------------------------------
+Không tìm thấy mã độc:
+- windows-10-x64-2
+- winserver-2008-7
+- windows-xp-3
+- windows-xp-5
+- windows-10-x64-1
+- windows-10-x86-3
+- winserver-2008-x86-8
+- winserver-2012-5

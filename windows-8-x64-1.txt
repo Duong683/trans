@@ -1,0 +1,18 @@
+﻿File độc hại:
+C:\Users\huynl2\AppData\Local\Temp\Application.exe
+C:\Users\huynl2\AppData\Roaming\msconfig.ini
+
+Analysis: 
+- Phân loại:  HEUR:Trojan.Win32
+- Luồng hoạt động chính:
+	Tạo registry 
+		HKCU\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\
+		Shell 
+		explorer.exe,"C:\Users\huynl2\AppData\Local\Temp\Application.exe"
+	Thực hiện keyloger rồi lưu log vào file msconfig.ini. Mã hóa base64
+- Máy chủ điều khiển:
+- Giao thức điều khiển:
+- Dấu hiệu nhận biết:
+	file không có chữ ký
+	
+

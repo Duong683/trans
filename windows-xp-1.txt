@@ -1,0 +1,23 @@
+﻿File độc hại:
+C:\Program Files\Common Files\Microsoft Shared\Schedule\SCHDPL32.exe	10/17/2017	03:16 PM
+C:\Program Files\Common Files\Microsoft Shared\Schedule\msspc32.dll	10/17/2017	03:16 PM
+C:\Program Files\Common Files\Microsoft Shared\Schedule\ms1.lib		10/17/2017	03:16 PM
+C:\Program Files\Common Files\Microsoft Shared\Schedule\ms2.lib 	10/17/2017	03:16 PM
+C:\Documents and Settings\All Users\schant\NvSmart.hlp			10/17/2017	03:16 PM
+
+Analysis: 
+- Phân loại: #RAT#PlugX
+- Luồng hoạt động chính:
+	Tạo registry HKLM\System\CurrentControlSet\Services: Microsoft Schedule Service ms1.lib,ms2.lib
+	Tiêm mã độc vào 2 process svchost.exe, msiexec.exe
+		Chứa các plugin Disk, Screen, Option, Keylog,... thực hiện các chức năng như
+		Keylog. Thêm, xóa, sửa, thực thi file. Capture screen.
+	
+- Máy chủ điều khiển: không tìm thấy
+- Giao thức điều khiển: TCP, UDP
+- Dấu hiệu nhận biết:
+	2 process bị tiêm mã độc nằm độc lập với các tiến trình khác. Không phải con của process services.exe
+		
+	
+
+

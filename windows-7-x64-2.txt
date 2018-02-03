@@ -1,0 +1,13 @@
+﻿File độc hại:
+C:\Users\ASUS\AppData\Roaming\WmiPrvSE.exe	10/17/2017  04:26 PM                    
+
+Analysis:
+- Phân loại:  Trojan.Win32.Hesv.avlp
+- Luồng hoạt động chính:
+- Máy chủ điều khiển: không tìm thấy
+- Dấu hiệu nhận biết:
+	file WmiPrvSE.exe có icon là 1 thư mục
+		
+	
+
+

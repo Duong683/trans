@@ -1,3 +1,0 @@
-7 Taskbar Tweaker	7+ Taskbar Tweaker	RaMMicHaeL	c:\users\administrator\appdata\roaming\7+ taskbar tweaker\7+ taskbar tweaker.exe	5/19/2017 12:59 PM
-30000	Windows Command Processor	Microsoft Corporation	c:\windows\system32\cmd.exe	8/22/2013 2:03 AM		
- faizal 	Microsoft ® Windows Based Script Host	Microsoft Corporation	c:\windows\system32\wscript.exe	8/22/2013 3:01 AM	

@@ -1,0 +1,14 @@
+﻿File độc hại:
+C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\intranet.exe
+C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\intranet.lnk
+
+Analysis: 
+- Phân loại:   #Spyware#Zusy
+- Luồng hoạt động chính:
+	Gửi requests đến server để nhận lệnh
+- Máy chủ điều khiển:	58.158.177.102:80
+- Giao thức điều khiển: TCP
+- Dấu hiệu nhận biết:
+	file không có chữ ký
+	
+

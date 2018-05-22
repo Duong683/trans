@@ -1,0 +1,4 @@
+strings file -> ta thay file bi anti-debugging = upx
+unpack file lai = upx -> upx -d file
+file moi ko bi anti-dbg
+dung gdb de debug file roi doc ra flag

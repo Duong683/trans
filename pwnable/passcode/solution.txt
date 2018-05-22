@@ -1,0 +1,17 @@
+debug ta thay:
+dia chi cua name trong welcome - dia chi cua passcode1 trong login = 96
+ma welcome doc 100s name
+-> 4 byte cuoi bi ghi de len passcode1
+** ham scanf nhan 1 dia chi, no se ghi input ma nguoi dung nhap vao Vung nho
+ma dia chi do tro toi
+-> neu ta thay dia chi ay = 1 bien (var), no se coi bien do nhu 1 dia chi va
+thuc hien nhu tren
+=>>>neu ta thay 4 byte cuoi = dia chi cua 1 cai gi do
+->ham scanf se ghi input nguoi dung nhap vao vung nho ma dia chi do tro toi
+
+**Bang GOT chua dia chi cua cac lenh co san trong chuong trinh
+vd 0804a004 R_386_JUMP_SLOT   fflush
+khi goi den fflush, chuong trinh se jump den dia chi 0804a004 va thuc hien
+cac cau lenh o dia chi tren
+neu ta ghi de noi dung cua dia chi 0804a004 = dia chi x
+thi khi goi lenh fflush, chuong trinh se jump den dia chi x
